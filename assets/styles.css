@@ -1,0 +1,122 @@
+/* 
+    Created on : Aug 19, 2021, 3:23:01 PM
+    Author     : Reyas
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap');
+
+body {
+   font-family: 'Roboto', sans-serif;
+   font-size:18px;
+   color:#36454F;
+}
+
+a {
+    color:#6082B6;
+}
+
+a:hover {
+    color:#36454F;
+}
+
+.container {
+    max-width:1200px;
+    margin:0 auto;
+    padding:30px;
+}
+
+.container .login_page, .container .register_page, .container .error_page, .container .list_page {
+    max-width:500px;
+    margin:0 auto;
+}
+
+h1 {
+    font-size:50px;
+    text-align:center;
+    font-weight:500;
+}
+
+form label {
+    width:100%;
+    line-height:40px;
+}
+
+form .inputbox, form .inputsubmit {
+    width:100%;
+    height:40px;
+    border:1px solid #36454F;
+    border-radius:5px;
+    margin-bottom:20px;
+    box-sizing: border-box;
+    padding:5px;
+}
+
+form .inputsubmit {
+    height:50px;
+    margin-top:20px;
+    background:#36454F;
+    color:#FFF;
+    font-size:18px;
+    letter-spacing:2px;
+    text-transform:uppercase;
+}
+
+form .inputsubmit:hover {
+    cursor: pointer;
+    border:1px solid #899499;
+    background:#899499;
+}
+
+.signup_link,.logout_link {
+    text-align:center;
+    font-size:14px;
+    line-height:28px;
+    text-transform: uppercase;
+    display:block;
+    width:100%;
+}
+
+.error_message,.error_fields {
+    text-align:center;
+    line-height:20px;
+}
+
+.list_page {
+    max-width:800px !important;
+}
+
+.list_page .table_container {
+    max-height:70vh;
+    overflow-y: auto;
+    margin-bottom:30px;
+}
+
+table {
+    width: 100%;
+    border-spacing: 2px;
+}
+
+th, td {
+    border-bottom:1px solid #899499;
+}
+
+th {
+    background-color: #EBEBEB;
+    color: #303030;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+td.slno {
+    width:10%;
+}
+
+td.username {
+    width:40%;
+}
+
+td.email {
+    width:50%;
+}
